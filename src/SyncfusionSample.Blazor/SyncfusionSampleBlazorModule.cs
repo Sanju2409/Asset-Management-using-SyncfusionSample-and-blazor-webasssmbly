@@ -45,7 +45,7 @@ public class SyncfusionSampleBlazorModule : AbpModule
         ConfigureMenu(context);
         ConfigureAutoMapper(context);
         context.Services.AddSyncfusionBlazor();
-        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBaFt/QHRqVVhjVFpFdEBBXHxAd1p/VWJYdVt5flBPcDwsT3RfQF5jSn5adkZmXn1fd3xcTw==;Mgo+DSMBMAY9C3t2VVhkQlFadVdJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxQdkZjUH9ddXNXR2hcU00=;MTI4NjgzNEAzMjMwMmUzNDJlMzBjVEZ4bGw3aWxXd0g5dGI0Ymx0RFh2bi8rdE9JWTJTR1BkUjJsMEt6Y29nPQ==");
+        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBaFt+QHFqVkNrWE5GdUBAXWFKblJ8RGpTfl1gBShNYlxTR3ZcQFljSHxTd0BgWHtf;MTQ0NjE3NEAzMjMxMmUzMTJlMzMzNVFsWGtrS1loR3lyT2d1ZkVNeVMzNHp2aVNZWXorZWljWWtqQlVEY3lZSGs9");
     }
 
     private void ConfigureRouter(ServiceConfigurationContext context)

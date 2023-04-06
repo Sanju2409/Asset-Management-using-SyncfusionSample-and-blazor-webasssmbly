@@ -13,16 +13,16 @@ namespace SyncfusionSample.Data
 			new ProductDto
 			{
 				Id = Guid.NewGuid(),
-				Name = "Leonardo Da Vinci",
-				Description="cgv b",
+				Name = "Fan",
+				Description="Amazon Basics 3 Speed Small Room Air Circulator Fan, 7-Inch Blade, Black",
 				Price = 33.99F
 			},
 			new ProductDto
 			{
 				Id = Guid.NewGuid(),
-				Name = "Da Vinci",
-				Description="cgvdd",
-				Price = 33.99F
+                Name = "Redmi smartphone",
+                Description="Xiaomi Redmi 9A - Smartphone 2 GB + 32 GB, Dual Sim, Grigio (Granite Grey)",
+                Price = 33.99F
 			},
 			
 		};

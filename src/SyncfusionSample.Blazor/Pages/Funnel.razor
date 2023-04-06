@@ -3,29 +3,29 @@
 
 <SfAccumulationChart Title="Product count statistics">
     <AccumulationChartSeriesCollection>
-        <AccumulationChartSeries DataSource="@StatisticsDetails" XName="Browser" YName="Users"
-                                 Name="Browser" Type="AccumulationType.Funnel" NeckWidth="15%" NeckHeight="18%">
+        <AccumulationChartSeries DataSource="@StatisticsDetails" XName="Item" YName="Users"
+                                 Name="Item" Type="AccumulationType.Funnel" NeckWidth="15%" NeckHeight="18%">
             <AccumulationDataLabelSettings Visible="true" />
         </AccumulationChartSeries>
     </AccumulationChartSeriesCollection>
-
+    <AccumulationChartTooltipSettings Enable="true"></AccumulationChartTooltipSettings>
     <AccumulationChartLegendSettings Visible="true"></AccumulationChartLegendSettings>
 </SfAccumulationChart>
 
 @code {
     public class Statistics
     {
-        public string Browser { get; set; }
+        public string Item { get; set; }
         public double Users { get; set; }
     }
     public List<Statistics> StatisticsDetails = new List<Statistics>
     {
-        new Statistics { Browser = "Electronics", Users = 37 },
-        new Statistics { Browser = "Fashion", Users = 17 },
-        new Statistics { Browser = "Bottles", Users = 19 },
-        new Statistics { Browser = "Stationary", Users = 4  },
-        new Statistics { Browser = "Home Appliances", Users = 11 },
-        new Statistics { Browser = "Toys", Users = 12 },
+        new Statistics { Item = "Electronics", Users = 37 },
+        new Statistics { Item = "Fashion", Users = 17 },
+        new Statistics { Item = "Bottles", Users = 19 },
+        new Statistics { Item = "Stationary", Users = 4  },
+        new Statistics { Item = "Home Appliances", Users = 11 },
+        new Statistics { Item = "Toys", Users = 12 },
     };
-    
+
 }
